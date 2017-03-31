@@ -1,29 +1,21 @@
-export default { 
+export default {
   categories: [
     {
-      name: 'pictures',
+      name: "pictures",
       subcategories: [
         {
-          name: 'fruits',
-          items: [
-            'apple',
-            'orange',
-            'papaya'
-          ]
-        },{
-          name: 'animals',
-          items: [
-            'dog',
-            'cat'
-          ]
+          name: "fruits",
+          items: ["apple", "orange", "papaya"]
+        },
+        {
+          name: "animals",
+          items: ["dog", "cat"]
         }
       ]
     },
     {
-      name: 'numbers',
-      subcategories: [
-        {} 
-      ]
+      name: "numbers",
+      subcategories: [{}]
     }
   ]
-}
+};

@@ -5,7 +5,6 @@
   "main": "app.js",
   "author": "depak p",
   "license": "MIT",
-  "main": "app.js",
   "scripts": {
     "start": "nodemon lib/index.js --exec babel-node --presets es2015,stage-2",
     "build": "babel lib -d dist",
@@ -13,6 +12,7 @@
     "test": "mocha --compilers js:babel-register"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "winston": "^2.3.1"
   },
   "devDependencies": {
