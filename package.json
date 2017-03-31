@@ -1,0 +1,23 @@
+{
+  "name": "shristy_cards",
+  "version": "1.0.0",
+  "description": "cards for kids",
+  "main": "app.js",
+  "author": "depak p",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon lib/index.js --exec babel-node --presets es2015,stage-2",
+    "build": "babel lib -d dist",
+    "serve": "node dist/index.js",
+    "test": "mocha --compilers js:babel-register"
+  },
+  "dependencies": {
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-2": "^6.22.0"
+  }
+}
